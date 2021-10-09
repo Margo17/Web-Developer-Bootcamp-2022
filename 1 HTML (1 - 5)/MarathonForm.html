@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Register Form</title>
+	</head>
+	<body>
+		<h1>Race Registration!</h1>
+		<form action="/form">
+			<div>
+				<label for="name">First Name</label>
+				<input type="text" name="name" id="name" required />
+				<label for="lastname">Last Name</label>
+				<input type="text" name="lastname" id="lastname" required />
+			</div>
+			<p>Select a race:</p>
+			<div>
+                <input type="radio" name="run" id="fun" value="fun" required>
+                <label for="fun">Fun Run 5k</label>
+			<div>
+            <div>
+                <input type="radio" name="run" id="half" value="half" required>
+                <label for="half">Half Marathon</label>
+			<div>
+            <div>
+                <input type="radio" name="run" id="full" value="full" required>
+                <label for="full">Full Marathon</label>
+			<div>
+			<br />
+			<div>
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" required />
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" required />
+			</div>
+			<br />
+			<div>
+				<label for="age">Select age group:</label>
+				<select name="age" id="age" required>
+                    <option value="">Select</option>
+					<option value="1">Under 18</option>
+					<option value="2">18 - 30</option>
+					<option value="3">30 - 60</option>
+					<option value="4">60+</option>
+				</select>
+			</div>
+			<br />
+			<button>Register</button>
+		</form>
+	</body>
+</html>
