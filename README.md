@@ -50,11 +50,11 @@ In addition to projects there were quizes and exercizes in each module which had
 
 - Create static HTML and CSS portfolio sites and landing pages
 
-- Think like a developer. Become an expert at solving problems by Googling!
+- Think like a developer and become an expert at solving problems by Googling
 
 - Create complex HTML forms with validations
 
-- Implement full authentication from scratch!
+- Implement full authentication from scratch
 
 - Use CSS Frameworks including Bootstrap 5, Semantic UI, and Bulma
 
@@ -86,7 +86,7 @@ In addition to projects there were quizes and exercizes in each module which had
 
 - Make a beautiful, responsive photographer's portfolio page
 
-- Create a beautiful, responsive landing page for a startup
+- Create a landing page for a startup
 
 - Implement user authentication
 
